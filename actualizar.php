@@ -17,6 +17,6 @@ WHERE id='$id'";
 if ($conexion->query($sql)) {
     header("Location: index.php");
 } else {
-    echo "Error al actualizar";
+    echo "Error al actualizar.";
 }
 ?>
