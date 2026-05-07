@@ -12,7 +12,7 @@ $resultado = $conexion->query("SELECT * FROM articulos");
 </head>
 <body>
 
-<h1>Gestión de Artículos:</h1>
+<h1>Gestión de Artículos</h1>
 
 <a href="crear.php" class="btn">Agregar Artículo</a>
 
